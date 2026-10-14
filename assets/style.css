@@ -53,16 +53,6 @@ p { margin: 0 0 1em; }
 .skip { position: absolute; left: -999px; }
 .skip:focus { left: 16px; top: 16px; z-index: 100; background: #fff; padding: 8px 12px; }
 
-/* Notice bar */
-.notice {
-  background: var(--navy);
-  color: #dfe8f3;
-  font-size: 0.875rem;
-  text-align: center;
-  padding: 8px 16px;
-}
-.notice a { color: #fff; }
-
 /* Header */
 .site-header {
   position: sticky;
